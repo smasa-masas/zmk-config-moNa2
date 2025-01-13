@@ -63,7 +63,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &trans                &kp SLASH                    &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 4 COLON           &kp SEMICOLON                &kp N        &kp M  &kp COMMA  &kp DOT  &kp LS(INT1)
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 4 TAB             &kp SEMICOLON                &kp N        &kp M  &kp COMMA  &kp DOT  &kp LS(INT1)
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &mt RIGHT_CONTROL BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
@@ -85,17 +85,17 @@
             bindings = <
 &kp LS(NUMBER_2)  &kp RIGHT_BRACKET      &kp NUHS   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)                           &kp KP_PLUS           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
 &kp EXCLAMATION   &kp LEFT_BRACKET       &kp POUND  &kp DLLR          &kp PRCNT         &trans    &kp LS(MINUS)  &kp LS(SINGLE_QUOTE)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH
-&kp LS(NUMBER_7)  &kp LS(RIGHT_BRACKET)  &kp PIPE   &kp LESS_THAN     &kp GREATER_THAN  &trans    &kp PERIOD     &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
+&kp LS(NUMBER_7)  &kp LS(RIGHT_BRACKET)  &kp PIPE   &kp LESS_THAN     &kp GREATER_THAN  &trans    &kp PERIOD     &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
 &trans            &trans                 &trans     &trans            &trans            &trans    &trans         &trans                                                                   &trans
             >;
         };
 
         arrows_3 {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                     &trans  &kp RC(PAGE_DOWN)  &kp UP_ARROW    &kp RC(PAGE_UP)  &kp RIGHT_CONTROL
-&kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans    &trans  &trans  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans          &kp LA(RIGHT_ARROW)  &trans   &trans    &trans  &trans  &trans             &trans          &trans           &trans
-&trans          &trans              &trans          &trans               &trans   &trans    &trans  &trans                                                      &trans
+&kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                     &trans  &kp RC(PAGE_UP)     &kp UP_ARROW    &kp RC(PAGE_DOWN)    &kp RIGHT_CONTROL
+&kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans    &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans
+&kp LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans          &kp LA(RIGHT_ARROW)  &trans   &trans    &trans  &trans  &kp RA(LEFT_ARROW)  &trans          &kp RA(RIGHT_ARROW)  &trans
+&trans          &trans              &trans          &trans               &trans   &trans    &trans  &trans                                                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -125,10 +125,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &kp RA(LEFT_ARROW)  &trans    &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1            &mkp MB3  &mkp MB2             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans              &trans    &trans               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
