@@ -85,7 +85,7 @@
             bindings = <
 &kp LS(NUMBER_2)  &kp RIGHT_BRACKET      &kp NUHS   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)                           &kp KP_PLUS           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
 &kp EXCLAMATION   &kp LEFT_BRACKET       &kp POUND  &kp DLLR          &kp PRCNT         &trans    &kp LS(MINUS)  &kp LS(SINGLE_QUOTE)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH
-&kp LS(NUMBER_7)  &kp LS(RIGHT_BRACKET)  &kp PIPE   &kp LESS_THAN     &kp GREATER_THAN  &trans    &kp PERIOD     &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
+&kp LS(NUMBER_7)  &kp LS(RIGHT_BRACKET)  &kp PIPE   &kp LESS_THAN     &kp GREATER_THAN  &trans    &kp PERIOD     &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL
 &trans            &trans                 &trans     &trans            &trans            &trans    &trans         &trans                                                                   &trans
             >;
         };
